@@ -149,22 +149,22 @@ export const inputText = {
   }
 
 export const projectTitle = [
+    'AeroWave',
     'Pokedex',
     'BMI Calculator',
-    '',
     ''
   ];
 
 export const projectTexts = [
+    "AeroWave is an e-commerce project focused on selling vinyl records, built with the React library. Inspired by the styles of Frutiger Aero and Vaporwave from the 90s, the project aims to provide a modern and functional shopping experience. It incorporates features such as componentization, pagination, CSS animations, and integration with React Toastify for enhanced navigation. This project stands out for its technical and aesthetic approach, representing a practical example of developing dynamic and interactive interfaces.",
     "This project entails the development of a Pokédex using the React library, integrating the PokeAPI to retrieve essential data such as names, identifiers, and Pokémon sprites. Additionally, the application incorporates Toastify for notifications, enhancing the interactive user experience. The choice of React ensures a responsive and modular interface, easing code organization, while the integration with the PokeAPI guarantees a reliable source of information. The inclusion of Toastify contributes to a more dynamic user experience, allowing visual and informative notifications during interactions with the Pokédex.",
     "The project at hand is a Body Mass Index (BMI) Calculator built using the React library. The interface has been thoughtfully designed to provide an intuitive user experience, allowing for easy BMI calculations. The results are dynamically displayed with color-coded indicators for categories such as 'Underweight,'' 'Normal,' 'Overweight,' and 'Obese' based on the calculated values. Additionally, the application employs the Toastify library to deliver clear notifications in cases of invalid data input. With a responsive design, the project ensures a consistent experience across different devices, underscoring the emphasis on usability and efficient application design.",
-    "THIS PROJECT ARE IN DEVELOPMENT",
     "THIS PROJECT ARE IN DEVELOPMENT"
   ];
 
 export const projectTextsPt = [
+    "AeroWave é um projeto de e-commerce focado na venda de discos de vinil, construído com a biblioteca React. Inspirado nos estilos Frutiger Aero e Vaporwave dos anos 90, o projeto busca proporcionar uma experiência de compra moderna e funcional. Incorpora recursos como componentização, paginação, animações CSS e integração com React Toastify para uma navegação aprimorada. Este projeto destaca-se por sua abordagem técnica e estética, representando um exemplo prático de desenvolvimento de interfaces dinâmicas e interativas.",
     "Este projeto envolve o desenvolvimento de um Pokédex utilizando a biblioteca React, integrando a PokeAPI para recuperar dados essenciais, como nomes, identificadores e sprites de Pokémon. Além disso, a aplicação incorpora o Toastify para notificações, aprimorando a experiência interativa do usuário. A escolha do React garante uma interface responsiva e modular, facilitando a organização do código, enquanto a integração com a PokeAPI garante uma fonte confiável de informações. A inclusão do Toastify contribui para uma experiência do usuário mais dinâmica, permitindo notificações visuais e informativas durante as interações com o Pokédex.",
     "O projeto em questão é um Calculador de Índice de Massa Corporal (IMC) construído utilizando a biblioteca React. A interface foi cuidadosamente projetada para proporcionar uma experiência intuitiva ao usuário, permitindo cálculos de IMC de maneira fácil. Os resultados são exibidos dinamicamente com indicadores codificados por cores para categorias como 'Abaixo do Peso', 'Normal', 'Sobrepeso' e 'Obeso' com base nos valores calculados. Além disso, a aplicação utiliza a biblioteca Toastify para fornecer notificações claras em casos de entrada de dados inválidos. Com um design responsivo, o projeto garante uma experiência consistente em diferentes dispositivos, destacando a ênfase na usabilidade e no design eficiente da aplicação.",
-    'ESTE PROJETO ESTÁ EM DESENVOLVIMENTO',
     'ESTE PROJETO ESTÁ EM DESENVOLVIMENTO'
   ];

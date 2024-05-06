@@ -15,6 +15,7 @@ import javascriptIco from './assets/javascript.png'
 import typescriptIco from './assets/typescript.png'
 import tailwindIco from './assets/tailwind.png'
 import reactIco from './assets/react.png'
+import aerowave from './assets/aerowave.png'
 import pokedex from './assets/pokedex.png'
 import bmiCalculator from './assets/bmicalculator.png'
 import onDevelopment from './assets/ondevelopment.png'
@@ -312,6 +313,19 @@ const skillInfo = currentLanguage ? selectedLanguageSkill.infoPt : selectedLangu
 
                           <div className='card'>
                           
+                            <img onClick={openModal} src={aerowave} alt="aerowave project preview"/>
+                      
+                            <div className='buttonsArea'>
+
+                            <a href="https://aerowave-zeta.vercel.app/" target='_blank'><img src={eye} alt="deploy" className='deployButton'/></a>
+                            <a href="https://github.com/Venturini-Sales/AeroWave" target='_blank'><img src={repository} alt="repository" className='repositoryButton'/></a>
+
+                            </div>
+
+                          </div>
+
+                          <div className='card'>
+                          
                             <img onClick={openModal} src={pokedex} alt="pokedex project preview"/>
                       
                             <div className='buttonsArea'>
@@ -335,18 +349,6 @@ const skillInfo = currentLanguage ? selectedLanguageSkill.infoPt : selectedLangu
                             </div>
 
                           </div>
-
-                          <div className='card'>
-
-                            <img onClick={openModal} src={onDevelopment} alt="project OnDevelopment" />
-
-                            <div className='buttonsArea'>
-
-                            <h1>{currentLanguage ? titleIdioms.onDevelopment.titlePt:titleIdioms.onDevelopment.titleEn}</h1>
-
-                            </div>
-
-                        </div>
 
                         <div className='card'>
 
